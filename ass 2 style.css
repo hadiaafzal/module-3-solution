@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 100%;
+  
+  }
+ 
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .box {
+        width:50%;
+        
+        }
+        
+    }
+
+  @media screen and (max-width: 768px) {
+    .box {
+      width: 100%;
+    
+  
+    }
+  }
+  .box {
+    
+    margin-left: 10px;
+    border: 0px;
+    padding-left: 10px;
+ overflow: none;
+
+   
+  
+  }
+  
+  
+ 
+  h3 {
+    text-align: center;
+    text-shadow: none;
+
+  }
+  h1 {
+  
+  text-align: center;
+  }
+  
+  p {
+    
+      color: whitesmoke;
+      padding: 5px 10px 20px 2px;
+      margin-bottom:20px;
+      
+  }
+  
+  .p-section {
+    width: 100%;
+      height:fit-content;   
+      margin-bottom:10px;
+      margin-left: 0%;
+      position: relative;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: gray;
+      word-wrap: break-word;
+      border: 2px solid black;
+  }
+
+  
+  ul {
+    list-style-type:none;
+    margin:0 ;
+    padding:0;
+  }
+  
+  /* Make the list items display inline */
+  li {
+    display: block;
+  
+  }
+  
+  /* Add some color, border, and padding to the links */
+  a {
+    color: black;
+    background-color: blue;
+    border: 1px solid black;
+    padding-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Change the color and background of the links when hovered */
+  a:hover {
+    color: blue;
+    background-color:aqua;
+  }
+  .bg-gray{
+    background-color: gray!important;
+  }
+  
+  
